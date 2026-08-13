@@ -64,7 +64,7 @@ gate_proj, up_proj, down_pro
 
 ### NaijaCXR
 - **Source**: Rasheed Shekoni Federal University Teaching Hospital (RSFUTH), Nigeria
-- **Size**: 1,400 unique chest X-ray / radiology report pairs
+- **Size**: 2,000 unique chest X-ray / radiology report pairs
 - **Pathologies**: Normal, Cardiomegaly, Hypertensive Heart Disease,
   Congestive Cardiac Failure, Peripartum Cardiac Failure,
   Pulmonary Tuberculosis, Pneumonia, Incipient Cardiac Failure
@@ -73,7 +73,7 @@ gate_proj, up_proj, down_pro
 
 ### MIMIC-CXR (auxiliary)
 - **Source**: Beth Israel Deaconess Medical Center, USA (PhysioNet)
-- **Subset used**: 1,006 examples (balanced sample)
+- **Subset used**: 30,347 examples (Selected sample)
 - **Purpose**: Supplementary training signal; provides report structure diversity
 
 ### Data Balancing Strategy
@@ -264,7 +264,7 @@ If you use this work, please cite:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-> Note on data: The NaijaCXR dataset is noot publicly released in this repository
+> Note on data: The NaijaCXR dataset is not publicly released in this repository
 > due to patient privacy and institutional data governance requirements. Access requests
 > for research purposes can be directed to the data custodians at RSFUTH.
 '''
