@@ -77,9 +77,9 @@ gate_proj, up_proj, down_pro
 - **Purpose**: Supplementary training signal; provides report structure diversity
 
 ### Data Balancing Strategy
-- NaijaCXR downsampled to match MIMIC count (1,006 each)
+- NaijaCXR upsampled to match MIMIC count (10,006 each)
 - Normal/abnormal class balance preserved within NaijaCXR (50/50 split)
-- Combined training set: 2,012 examples (90/10 train/eval split)
+- Combined training set: 14,0000 examples (70/30 train/eval split)
 
 ---
 
